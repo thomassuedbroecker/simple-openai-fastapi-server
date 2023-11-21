@@ -43,7 +43,7 @@ _Note:_ Additional resources, how to [Set virtual environment for Python](https:
 
 Follow the step in [set up a virtual environment for Python](https://suedbroecker.net/2023/05/23/set-a-virtual-environment-for-python/)
 
-_Note:_ To the the `path variable` open in your Windows search bar `Edit environment variables for your account`.
+_Note:_ To add the `path variable` please open in your Windows search bar `Edit environment variables for your account`.
  
 ### 1.3 Ensure you can use PowerShell on Windows
 

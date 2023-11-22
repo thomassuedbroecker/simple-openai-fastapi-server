@@ -20,6 +20,8 @@ _Clone the project to your local computer:_
 git clone https://github.com/thomassuedbroecker/simple-openai-server-fastapi.git
 ```
 
+![](/images/2023-11-22_fastapi-01.gif)
+
 _Note:_ 
 
   * You can find additional information, on how to create a pipeline in the related project: “How to use and set up `Watsonx.ai` in the simple pipeline project”: https://github.com/thomassuedbroecker/simple-qa-pipeline. We reuse code and concepts from that pipeline project.

@@ -1,6 +1,6 @@
 # Simple OpenAI FastAPI server
 
-This code example is a [`FastAPI`](https://fastapi.tiangolo.com/) server that creates multiple API endpoints for interacting with an [`OpenAI`](https://openai.com/) model. 
+This code example is a [`FastAPI`](https://fastapi.tiangolo.com/) server that contains multiple API endpoints for interacting with an [`OpenAI`](https://openai.com/) model. 
 
 * It uses [`HTTPBasic authentication`](https://en.wikipedia.org/wiki/Basic_access_authentication) for security. 
 * It defines endpoints for `health status`, fetching simple text from [`OpenAI`](https://openai.com/), fetching text with a prompt from `OpenAI`, and uploading a file as context for the question to get a response from `OpenAI`. 

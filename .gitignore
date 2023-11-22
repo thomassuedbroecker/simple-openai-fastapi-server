@@ -161,3 +161,4 @@ cython_debug/
 
 # custom 
 env3.10/
+.DS_Store

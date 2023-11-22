@@ -2,17 +2,20 @@
 
 This code example is a [`FastAPI`](https://fastapi.tiangolo.com/) server that contains multiple API endpoints for interacting with an [`OpenAI`](https://openai.com/) model. 
 
+## The objective is to provide three main endpoints
+
+* One endpoint is to send a simple text to Open AI and return the result.
+* One endpoint to send a preconfigured prompt to Open AI. The preconfigured prompt contains a context and a question as parameters. These parameters will be replaced by the provided values of the endpoint invocation and sent to Open AI. The response will be provided as the return value of the endpoint.
+* One endpoint is to upload a file and question as parameters for Open AI.
+ 
+
+## Overview
+
 * It uses [`HTTPBasic authentication`](https://en.wikipedia.org/wiki/Basic_access_authentication) for security. 
 * It defines endpoints for `health status`, fetching simple text from [`OpenAI`](https://openai.com/), fetching text with a prompt from `OpenAI`, and uploading a file as context for the question to get a response from `OpenAI`. 
 The code also includes `OpenAPI` configuration for the `Swagger UI`. 
 * It uses custom modules for environment variables, response and payload definition, and AI access. 
 * Finally, it runs the FastAPI application using [`uvicorn`](https://www.uvicorn.org/) on localhost port 8080.
-
-The objective is to provide three main endpoints:
-
-* One endpoint is to send a simple text to Open AI and return the result.
-* One endpoint to send a preconfigured prompt to Open AI. The preconfigured prompt contains a context and a question as parameters. These parameters will be replaced by the provided values of the endpoint invocation and sent to Open AI. The response will be provided as the return value of the endpoint.
-* One endpoint is to upload a file and question as parameters for Open AI.
 
 _Clone the project to your local computer:_
 

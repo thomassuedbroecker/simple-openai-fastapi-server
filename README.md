@@ -2,13 +2,14 @@
 
 This code example is a [`FastAPI`](https://fastapi.tiangolo.com/) server that contains multiple API endpoints for interacting with an [`OpenAI`](https://openai.com/) model. 
 
+* [Related blog post](https://suedbroecker.net/2023/11/23/how-to-create-a-fastapi-server-to-use-openai-models/)
+
 ## The objective is to provide three main endpoints
 
 * One endpoint is to send a simple text to Open AI and return the result.
 * One endpoint to send a preconfigured prompt to Open AI. The preconfigured prompt contains a context and a question as parameters. These parameters will be replaced by the provided values of the endpoint invocation and sent to Open AI. The response will be provided as the return value of the endpoint.
 * One endpoint is to upload a file and question as parameters for Open AI.
  
-
 ## Overview
 
 * It uses [`HTTPBasic authentication`](https://en.wikipedia.org/wiki/Basic_access_authentication) for security. 
@@ -46,7 +47,7 @@ _Note:_ Additional resources, how to [Set virtual environment for Python](https:
 
 ### 1.2 Install virtual environment
 
-Follow the step in [set up a virtual environment for Python](https://suedbroecker.net/2023/05/23/set-a-virtual-environment-for-python/)
+Follow the steps in [set up a virtual environment for Python](https://suedbroecker.net/2023/05/23/set-a-virtual-environment-for-python/)
 
 _Note:_ To add the `path variable` please open in your Windows search bar `Edit environment variables for your account`.
  

@@ -82,13 +82,17 @@ source ./env3.10/bin/activate
 ### 2.2. Install the needed Python libraries 
 
 ```sh
-source ./env3.10/bin/activate
+# Linux
+#source ./env3.10/bin/activate 
+# Windows
+source ./env3.10/Scripts/activate 
 python3 -m pip install --upgrade pip
 python3 -m pip install "fastapi[all]"
 python3 -m pip install requests
 python3 -m pip install pydantic
 python3 -m pip install openai
 python3 -m pip install typing
+python3 -m pip install beautifulsoup4
 python3 -m pip install --upgrade openai
 python3 -m pip freeze > requirements.txt 
 ```
